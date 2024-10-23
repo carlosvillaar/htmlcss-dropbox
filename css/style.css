@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 *{
   margin: 0;
   padding: 0;
@@ -34,6 +37,10 @@ body{
 .center{
   justify-content: center;
   align-items: center;
+}
+
+.ai-start {
+  align-items: flex-start;
 }
 
 .flex-end{
@@ -80,6 +87,10 @@ a{
   position: absolute;
 }
 
+.full{
+  width: 100%;
+  height: 700px;
+}
 /*HEADER*/
 
 header{
@@ -133,23 +144,31 @@ main{
   width: 100%;
   margin: 0 auto;
   background-color: #B4D0E7;
+  height: 630px;
 }
 
 .jumbo{
   width: 62%;
-  padding-top: 60px;
+  height: 100%;
+  padding-top: 100px;
+}
+
+.jumbo-info{
+  height: 100%;
+  margin: 0 auto;
+  top: 0;
+  left: 0;
 }
 
 .main-title{
-  font-size: 2.5rem;
-  margin-bottom: 40px;
+  font-size: 2.2rem;
+  margin-bottom: 20px;
 }
 
 .text{
   font-size: 1.2rem;
   width: 410px;
   line-height: 23px;
-  margin: 20px 0;
 }
 
 .text-box{
@@ -165,8 +184,8 @@ main{
   width: 65%;
 }
 
-main img{
-  height: 400px;
+.big-box img{
+  height: 450px;
 }
 
 .relative.container-jumbo img.absolute{
@@ -179,4 +198,27 @@ main img{
   border: none;
   padding-left: 0px;
   font-size: 1.15rem;
+}
+
+.anchor{
+  font-size: 3rem;
+  margin-top: 23px;
+}
+
+.content-div{
+  width: 60%;
+  margin: 0 auto;
+  min-height: 600px;
+}
+
+.cards-container{
+  width: 100%;
+  min-height: 300px;
+  gap: 50px;
+
+}
+
+.card{
+  width: calc(100% / 3);
+  min-height: 280px;
 }
