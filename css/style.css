@@ -3,3 +3,180 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/*UTILS*/
+
+.debug{
+  border: 1px solid red;
+}
+
+.flex{
+  display: flex;
+}
+
+.justify-center{
+  justify-content: center;
+  
+}
+
+.align-center{
+  align-items: center;
+}
+
+.flex-start{
+  justify-content: flex-start;
+}
+
+.center{
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-end{
+  justify-content: flex-end;
+}
+
+.col{
+  flex-direction: column;
+}
+
+.big-btn{
+  padding: 13px 20px;
+  margin-top: 15px;
+  background: none;
+  font-size: 1.1rem;
+  
+}
+
+.bg-blue{
+  background-color: #0161FF;
+  color: white;
+  border: none;
+  font-size: 1.1rem;
+  margin-top: 30px;
+}
+
+.bg-white{
+  background-color: white;
+  color: black;
+  border: 1px solid gray;
+  font-size: 1.1rem;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+.relative{
+  position: relative;
+}
+
+.absolute{
+  position: absolute;
+}
+
+/*HEADER*/
+
+header{
+  height: 80px;
+  width: 100%;
+  background-color: white;
+  position: fixed;
+  z-index: 99999;
+}
+
+
+nav {
+  width: 50%;
+}
+
+header ul{
+  gap: 20px;
+}
+
+header ul li{
+  list-style: none;
+  height: 100%;
+}
+
+header a{
+  color: black;
+}
+
+.logo{
+  padding: 20px;
+}
+
+header button{
+  padding: 7px 15px;
+  margin: auto 20px;
+  background-color: #0161FF;
+  border: none;
+}
+
+header button a{
+  color: white;
+}
+
+/*MAIN*/
+
+main{
+  padding-top: 80px;
+}
+
+.container-jumbo{
+  width: 100%;
+  margin: 0 auto;
+  background-color: #B4D0E7;
+}
+
+.jumbo{
+  width: 62%;
+  padding-top: 60px;
+}
+
+.main-title{
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+}
+
+.text{
+  font-size: 1.2rem;
+  width: 410px;
+  line-height: 23px;
+  margin: 20px 0;
+}
+
+.text-box{
+  width: 100%;
+  height: 200px;
+}
+
+.small-box{
+  width: 35%;
+}
+
+.big-box{
+  width: 65%;
+}
+
+main img{
+  height: 400px;
+}
+
+.relative.container-jumbo img.absolute{
+  top: -275px;
+  left: 420px;
+  box-shadow: 1px rgba(83, 82, 82, 0.712);
+}
+
+.btn-b0{
+  border: none;
+  padding-left: 0px;
+  font-size: 1.15rem;
+}
