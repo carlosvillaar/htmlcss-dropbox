@@ -1,62 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./css/style.css">
-  <title>DropBox</title>
-</head>
-<body>
-  
-<header>
-  <div class="align-center flex">
-    <div class="logo">
-      <a href="#"><img src="./assets/img/logo-small.png" alt="logo dropbox"></a>
-    </div>
-    <nav>
-      <ul class="flex  flex-start justify-center">
-        <li><a href="#"></a></li>
-        <li><a href="#">Perch&eacute; DropBox</a></li>
-        <li><a href="#">Funzioni</a></li>
-        <li><a href="#">Piani e Prezzi</a></li>
-      </ul>
-    </nav>
-    <nav>
-      <ul class="flex  flex-end">
-        <li><a href="#">Supporto</a></li>
-        <li><a href="#">Contatta l'ufficio vendite</a></li>
-        <li><a href="#">Accedi</a></li>
-      </ul>
-    </nav>
-    <div class="btn">
-      <button><a href="#">Inizia</a></button>
-    </div>
-  </div>
-</header>
-
-<main>
-  <div class="container-jumbo flex center relative ">
-    <div class="jumbo ">
-      <div class="main-title text-box ">
-        <h1>Tutto ci&ograve; che ti serve per il lavoro, in un unico posto</h1>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>DropBox</title>
+  </head>
+  <body>
+    <header>
+      <div class="align-center flex">
+        <div class="logo">
+          <a href="#"
+            ><img src="./assets/img/logo-small.png" alt="logo dropbox"
+          /></a>
+        </div>
+        <nav>
+          <ul class="flex flex-start justify-center">
+            <li><a href="#"></a></li>
+            <li><a href="#">Perch&eacute; DropBox</a></li>
+            <li><a href="#">Funzioni</a></li>
+            <li><a href="#">Piani e Prezzi</a></li>
+          </ul>
+        </nav>
+        <nav>
+          <ul class="flex flex-end">
+            <li><a href="#">Supporto</a></li>
+            <li><a href="#">Contatta l'ufficio vendite</a></li>
+            <li><a href="#">Accedi</a></li>
+          </ul>
+        </nav>
+        <div class="btn">
+          <button><a href="#">Inizia</a></button>
+        </div>
       </div>
-      <div class=" text flex col small-box ">
-        <p>Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso posto.
-          Dropbox Business è più di uno spazio di archiviazione sicuro: è un modo intelligente e integrato per ottimizzare il flusso di lavoro esistente.</p>
-          <div class="btn">
-            <button class="big-btn bg-blue flex"><a href="#">Inizia la tua prova gratuita</a></button>
-            <button class="big-btn btn-b0"><a href="#">Annulla in qualsiasi momento</a></button>
-          </div>
-          <div class="relative container-jumbo">
-            <img class="absolute" src="./assets/img/jumbo.png" alt="jumbo">
-          </div>
-          <div class="anchor">
-            
+    </header>
+
+    <main>
+      <div class="full">
+        <div class="container-jumbo"></div>
+        <div class="jumbo-info full flex center absolute">
+          <div class="jumbo">
+            <div class="main-title text-box">
+              <h1>
+                Tutto ci&ograve; che ti serve per il lavoro, in un unico posto
+              </h1>
+            </div>
+            <div class="flex ai-start">
+              <div class="text flex col small-box">
+                <p>
+                  Finalmente tutti i tuoi strumenti, contenuti e collaboratori
+                  sono accessibili dallo stesso posto. Dropbox Business è più di
+                  uno spazio di archiviazione sicuro: è un modo intelligente e
+                  integrato per ottimizzare il flusso di lavoro esistente.
+                </p>
+                <div class="btn">
+                  <button class="big-btn bg-blue flex">
+                    <a href="#">Inizia la tua prova gratuita</a>
+                  </button>
+                  <button class="big-btn btn-b0">
+                    <a href="#">Annulla in qualsiasi momento</a>
+                  </button>
+                </div>
+                <a class="anchor" href="#anchor">
+                  <i class="fa-solid fa-arrow-down"></i>
+                </a>
+              </div>
+              <div class="big-box">
+                <img class="" src="./assets/img/jumbo.png" alt="jumbo" />
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-</main>
 
-</body>
+      <div class="flex col content-div debug">
+        <h2>Trova il piano business che fa per te</h2>
+        <div>
+          <input type="radio" /> <label>Fatturazione Mensile</label>
+          <input type="radio" /> <label>Fatturazione Annuale</label>
+        </div>
+        <div class="cards-container flex debug">
+          <div class="card debug">
+            <div class="plan flex center">
+              <p><i class="fa-solid fa-user"></i> Singolo</p>
+            </div>
+            <div class="professional">
+              <h3>Professional</h3>
+              <p>12 &euro;</p>
+              <p>/mese</p>
+            </div>
+            <div>
+              <ul>
+                <li><i class="fa-solid fa-user"></i> 1 Utente</li>
+                <li>
+                  <i class="fa-solid fa-folder"></i> 5 TB di spazio di
+                  archiviazione sicuro
+                </li>
+                <li>
+                  <i class="fa-solid fa-share-nodes"></i> Funzioni di
+                  produttività premium e condivisione file semplice e sicura
+                </li>
+              </ul>
+            </div>
+            <div>
+              <button>Prova gratis per 30 giorni</button>
+              <p>oppure <a href="#">acquista ora</a></p>
+            </div>
+            <div class="line"></div>
+            <div>
+              <h4>Punti salienti del piano</h4>
+              <ul>
+                <li>
+                  <i class="fa-solid fa-check"></i> invia file fino a 100 GB con
+                  DropBox Transfert
+                </li>
+                <li>
+                  <i class="fa-solid fa-check"></i> cartelle offline su
+                  dispositivi mobili
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="card debug"></div>
+          <div class="card debug"></div>
+        </div>
+        <div class="cards-container debug"></div>
+      </div>
+    </main>
+  </body>
 </html>
