@@ -67,36 +67,36 @@
                     <a href="#">Annulla in qualsiasi momento</a>
                   </button>
                 </div>
-                <a class="anchor" href="#anchor">
+                <a class="anchor" href="#acquista">
                   <i class="fa-solid fa-arrow-down"></i>
                 </a>
               </div>
               <div class="big-box">
-                <img class="" src="./assets/img/jumbo.png" alt="jumbo" />
+                <img class="jumbo-img" src="./assets/img/jumbo.png" alt="jumbo" />
               </div>
             </div>
           </div>
         </div>
       </div>
 
-      <div class="flex col content-div debug">
-        <h2>Trova il piano business che fa per te</h2>
-        <div>
+      <div class="flex col content-div">
+        <h2 class="title">Trova il piano business che fa per te</h2>
+        <div class="radio">
           <input type="radio" /> <label>Fatturazione Mensile</label>
           <input type="radio" /> <label>Fatturazione Annuale</label>
         </div>
-        <div class="cards-container flex debug">
-          <div class="card debug">
+        <div class="cards-container flex">
+          <div class="card">
             <div class="plan flex center">
               <p><i class="fa-solid fa-user"></i> Singolo</p>
             </div>
             <div class="professional">
-              <h3>Professional</h3>
-              <p>12 &euro;</p>
-              <p>/mese</p>
+              <h2 class="bold">Professional</h2>
+              <p class="bold">12 &euro;</p>
+              <p class="gray-text">/mese</p>
             </div>
             <div>
-              <ul>
+              <ul class="plan-list flex col">
                 <li><i class="fa-solid fa-user"></i> 1 Utente</li>
                 <li>
                   <i class="fa-solid fa-folder"></i> 5 TB di spazio di
@@ -108,30 +108,251 @@
                 </li>
               </ul>
             </div>
-            <div>
-              <button>Prova gratis per 30 giorni</button>
+            <div  class="buttons">
+              <button class="big-btn bg-blue"><a id="acquista" href="#">Prova gratis per 30 giorni</a></button>
               <p>oppure <a href="#">acquista ora</a></p>
             </div>
             <div class="line"></div>
             <div>
-              <h4>Punti salienti del piano</h4>
-              <ul>
+              <h4 class="bold points">Punti salienti del piano</h4>
+              <ul class="plan-list flex col">
                 <li>
-                  <i class="fa-solid fa-check"></i> invia file fino a 100 GB con
+                  <i class="fa-solid fa-check bold blue-text"></i> Invia file fino a 100 GB con
                   DropBox Transfert
                 </li>
                 <li>
-                  <i class="fa-solid fa-check"></i> cartelle offline su
+                  <i class="fa-solid fa-check bold blue-text"></i> Cartelle offline su
                   dispositivi mobili
                 </li>
               </ul>
             </div>
           </div>
-          <div class="card debug"></div>
-          <div class="card debug"></div>
+          <div class="card">
+            <div class="plan flex center">
+              <p><i class="fa-solid fa-users"></i> Team</p>
+            </div>
+            <div class="professional">
+              <h2 class="bold">Advanced</h2>
+              <p class="bold">18 &euro;</p>
+              <p class="gray-text">/utente/mese</p>
+            </div>
+            <div>
+              <ul class="plan-list flex col">
+                <li><i class="fa-solid fa-users"></i> 3 o pi&ugrave; Utenti</li>
+                <li class="relative">
+                  <i class="fa-solid fa-folder absolute"></i> Tutto lo spazio di
+                  cui ha bisogno il tuo team
+                </li>
+                <li>
+                  <i class="fa-solid fa-share-nodes"></i> Sofisticate unzioni di
+                  controllo e per tenere al sicuro tutti i file del tuo team
+                </li>
+              </ul>
+            </div>
+            <div class="buttons">
+              <button class="big-btn bg-blue">Prova gratis per 30 giorni</button>
+              <p>oppure <a href="#">acquista ora</a></p>
+            </div>
+            <div class="line"></div>
+            <div>
+              <h4 class="bold points">Punti salienti del piano</h4>
+              <ul class="plan-list flex col">
+                <li>
+                  <i class="fa-solid fa-check bold blue-text"></i> Nessun limite di spazio per i tuoi file
+                </li>
+                <li>
+                  <i class="fa-solid fa-check bold blue-text"></i> Cartelle offline su
+                  dispositivi mobili
+                </li>
+                <li>
+                  <i class="fa-solid fa-check bold blue-text"></i> Risparmio del 50% rispetto alle iscrizioni singole
+                </li>
+                <li>
+                  <i class="fa-solid fa-check bold blue-text"></i> Possibilit&aacute; di inserire nuovi membri del team
+                </li>
+                <li>
+                  <i class="fa-solid fa-check bold blue-text"></i> Gestione dei permessi in base ai ruoli
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="card">
+            <div class="plan flex center">
+              <p><i class="fa-solid fa-building"></i> Azienda</p>
+            </div>
+            <div class="professional">
+              <h2 class="bold">Enterprise</h2>
+              <p class="bold">Contattaci</p>
+              <p class="gray-text">-</p>
+            </div>
+            <div>
+              <ul class="plan-list flex col">
+                <li><i class="fa-solid fa-user"></i> 10 o pi&ugrave; Utente</li>
+                <li>
+                  <i class="fa-solid fa-folder"></i> Soluzioni personalizzabili per la tua azienda
+                </li>
+                <li>
+                  <i class="fa-solid fa-share-nodes"></i> Assistenza personalizzata per aiutare gli amministratori in una gestione su scala larga
+                </li>
+              </ul>
+            </div>
+            <div class="buttons">
+              <button class="big-btn bg-blue">Prova gratis per 30 giorni</button>
+              <p>oppure <a href="#">acquista ora</a></p>
+            </div>
+            <div class="line"></div>
+            <div>
+              <h4 class="bold points">Punti salienti del piano</h4>
+              <ul class="plan-list flex col">
+                <li>
+                  <i class="fa-solid fa-check blue-text"></i> Cartelle offline su dispositivi mobili
+                </li>
+                <li>
+                  <i class="fa-solid fa-check blue-text"></i> Servizio assistenza 24/h
+                </li>
+                <li>
+                  <i class="fa-solid fa-check blue-text"></i> Possibilit&aacute; di personalizzazione totale
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
-        <div class="cards-container debug"></div>
+        <div class="cards-container grey-border relative">
+          <div class="plan flex center">
+            <p><i class="fa-solid fa-building"></i> Team</p>
+          </div>
+          <div class="professional">
+            <h2 class="bold">Enterprise</h2>
+          </div>
+          <div class="professional">
+            <p class="bold">Contatta l'ufficio vendite per i prezzi</p>
+          </div>
+          <div>
+            <p class="plan-list">Soluzioni personalizzate e supporto su misura per aiutare i professionisti IT nella gestione su qualsiasi scala.</p>
+          </div>
+          <button class="big-btn bg-blue btn absolute">Contatta l'ufficio vendite</button>
+        </div>
       </div>
+
+      <div class="content-div flex ">
+        
+          <div class="big-box img-box flex">
+            <img src="./assets/img/partner.png" alt="">
+          </div>
+          <div class="small-box ">
+            <h2 class="title-img">Entra in contatto con un partner DropBox</h2>
+            <p class="text-img">Trova un Partner DropBox e HelloSign di fiducia. Ottieni le soluzioni e i servizi necessari per raggiungere i tuoi obiettivi aziendali, tra cui implementazione. integrazione, gestione e supporto continui.</p>
+            <button class="big-btn bg-white"><a href="#">Trova un partner</a></button>
+          </div>
+        
+      </div>
+
+      <div class="card-container">
+        <h2 class=""></h2>
+        <div class="secondary-content-div  flex">
+          <div class="secondary-card flex col ">
+            <img class="secondary-img" src="./assets/img/business-feature-switching-tools.png" alt="img1">
+            <h3 class="secondary-title">Passa di meno da uno strumento all'altro</h3>
+            <p>Porta a termine le attivit&aacute; quotidiane con un solo strumento. Crea, modifica e condividi contenuti cloud da Documenti, Fogli e Presentazioni di Google, file Microsoft Office e DropBox Paper direttamente da DropBox.</p>
+          </div>
+          <div class="secondary-card flex col ">
+            <img class="secondary-img" src="./assets/img/business-feature-send-files-it.png" alt="img2">
+            <h3 class="secondary-title">Passa di meno da uno strumento all'altro</h3>
+            <p>Porta a termine le attivit&aacute; quotidiane con un solo strumento. Crea, modifica e condividi contenuti cloud da Documenti, Fogli e Presentazioni di Google, file Microsoft Office e DropBox Paper direttamente da DropBox.</p>
+          </div>
+          <div class="secondary-card flex col ">
+            <img class="secondary-img" src="./assets/img/business-feature-coordinate-it.png" alt="img3">
+            <h3 class="secondary-title">Passa di meno da uno strumento all'altro</h3>
+            <p>Porta a termine le attivit&aacute; quotidiane con un solo strumento. Crea, modifica e condividi contenuti cloud da Documenti, Fogli e Presentazioni di Google, file Microsoft Office e DropBox Paper direttamente da DropBox.</p>
+          </div>
+          <div class="secondary-card flex col ">
+            <img class="secondary-img" src="./assets/img/business-feature-integrations-it.png" alt="img4">
+            <h3 class="secondary-title">Passa di meno da uno strumento all'altro</h3>
+            <p>Porta a termine le attivit&aacute; quotidiane con un solo strumento. Crea, modifica e condividi contenuti cloud da Documenti, Fogli e Presentazioni di Google, file Microsoft Office e DropBox Paper direttamente da DropBox.</p>
+          </div>
+          <div class="secondary-card flex col ">
+            <img class="secondary-img" src="./assets/img/business-feature-multi-device.png" alt="img5">
+            <h3 class="secondary-title">Passa di meno da uno strumento all'altro</h3>
+            <p>Porta a termine le attivit&aacute; quotidiane con un solo strumento. Crea, modifica e condividi contenuti cloud da Documenti, Fogli e Presentazioni di Google, file Microsoft Office e DropBox Paper direttamente da DropBox.</p>
+          </div>
+          <div class="secondary-card flex col ">
+            <img class="secondary-img" src="./assets/img/business-feature-security.png" alt="img6">
+            <h3 class="secondary-title">Passa di meno da uno strumento all'altro</h3>
+            <p>Porta a termine le attivit&aacute; quotidiane con un solo strumento. Crea, modifica e condividi contenuti cloud da Documenti, Fogli e Presentazioni di Google, file Microsoft Office e DropBox Paper direttamente da DropBox.</p>
+          </div>
+        </div>
+        
+      </div>
+
+      <div class="secondary-content-div">
+        <h2 class="last-title">Pi&ugrave; di 500.000 team utilizzano DropBox Business</h2>
+        <p class="last-text"><a href="#">Scopri di pi&ugrave; sui nostri clienti</a></p>
+      </div>
+
     </main>
+
+    <footer>
+      <div>
+        <div class="footer-container debug flex ">
+          <div class=" footer-col">
+            <h2>DropBox</h2>
+            <ul class="flex col">
+              <li><a href="#">Applicazione Desktop</a></li>
+              <li><a href="#">Perch&eacute; DropBox</a></li>
+              <li><a href="#">Piani</a></li>
+              <li><a href="#">Sicurezza</a></li>
+              <li><a href="#">Funzioni</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h2>DropBox</h2>
+            <ul class="flex col">
+              <li><a href="#">Applicazione Desktop</a></li>
+              <li><a href="#">Perch&eacute; DropBox</a></li>
+              <li><a href="#">Piani</a></li>
+              <li><a href="#">Sicurezza</a></li>
+              <li><a href="#">Funzioni</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h2>DropBox</h2>
+            <ul class="flex col">
+              <li><a href="#">Applicazione Desktop</a></li>
+              <li><a href="#">Perch&eacute; DropBox</a></li>
+              <li><a href="#">Piani</a></li>
+              <li><a href="#">Sicurezza</a></li>
+              <li><a href="#">Funzioni</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h2>DropBox</h2>
+            <ul class="flex col">
+              <li><a href="#">Applicazione Desktop</a></li>
+              <li><a href="#">Perch&eacute; DropBox</a></li>
+              <li><a href="#">Piani</a></li>
+              <li><a href="#">Sicurezza</a></li>
+              <li><a href="#">Funzioni</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h2>DropBox</h2>
+            <ul class="flex col">
+              <li><a href="#">Applicazione Desktop</a></li>
+              <li><a href="#">Perch&eacute; DropBox</a></li>
+              <li><a href="#">Piani</a></li>
+              <li><a href="#">Sicurezza</a></li>
+              <li><a href="#">Funzioni</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-container">
+        <div class="footer-line"></div>
+        <div class="footer-language">
+          <a href="#"><i class="fa-solid fa-earth-europe"></i> Italiano <i class="fa-solid fa-caret-up"></i></a>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
